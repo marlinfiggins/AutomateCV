@@ -8,3 +8,4 @@ Author: Marlin Figgins
 - Write tutorial and give guide on how to use this
 - [] Add general class mapping, so that I can make whichever section go to whatever entry environment I please
 - [] Create "John Doe" configuration for github upload
+  - `sample_config.yaml` and `sample_input.csv` and `sample_cv` and `sample_resume`
