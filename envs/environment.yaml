@@ -1,0 +1,6 @@
+name: automateCV
+channels:
+  - defaults
+dependencies:
+  - pyyaml
+  - pandas

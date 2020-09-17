@@ -1,0 +1,41 @@
+# Example .yaml file for automateCV
+# AutomateCV configuration
+contact_info: # Loop over all present values
+  "name": "Marlin Figgins"
+  "email": "marlinfiggins@gmail.com"
+  "website": "marlinfiggins.github.io"
+  "phone": "5"
+
+metadata:
+    "output_class": "academic_cv"
+    "input_data": "inputs/positions.csv"
+    "gpa": true
+    "research_description": true
+    "service_description": true
+
+section_titles:
+    "education": "Education"
+    "research": "Research"
+    "teaching": "Teaching"
+    "honors": "Honors, Awards, and Fellowships"
+    "publicpub": "Blog posts"
+    "confpres": "Conference Presentations"
+    "service": "Service"
+    "skills": "Technical Skills"
+
+section_order:
+  - "education"
+  - "research"
+  - "teaching"
+  - "publicpub"
+  - "honors"
+  - "confpres"
+  - "service"
+
+needs_description:
+  - "research"
+  - "service"
+
+needs_enumeration:
+  - "publicpub"
+  - "confpres"
