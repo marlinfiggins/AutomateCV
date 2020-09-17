@@ -7,3 +7,4 @@ Author: Marlin Figgins
 - [] Go through and comment code
 - Write tutorial and give guide on how to use this
 - [] Add general class mapping, so that I can make whichever section go to whatever entry environment I please
+- [] Create "John Doe" configuration for github upload

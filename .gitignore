@@ -6,3 +6,9 @@
 
 # .ipynb 
 *.ipynb
+
+#Python Cache
+*__pycache__
+
+# Contents of output
+output/*
