@@ -12,3 +12,6 @@
 
 # Contents of output
 output/*
+!output/academic_cv_John_H._Doe.tex
+!output/academic_cv_John_H._Doe.pdf
+
