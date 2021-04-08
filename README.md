@@ -30,6 +30,10 @@ Supported entry types:
 - publicpub
 - confpres
 
+## Output
+
+An example academic CV can be found in `output/academic_cv_John_H._Doe.pdf`.
+
 ## To do:
 - [] Work on class files for resume and CV
 - [] Add to pipeline, so that .tex and .pdf end up in the outputs folder.
