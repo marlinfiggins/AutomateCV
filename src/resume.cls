@@ -92,4 +92,4 @@
 %% Eventually make edits so that publicpub and confpresentry are ennumerated backwards
 %% This can be added to config
 
-%% Add optional argumentation for descriptionst
+%% Add optional argumentation for descriptions
