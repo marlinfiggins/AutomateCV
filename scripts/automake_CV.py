@@ -3,7 +3,7 @@ import shutil
 import yaml
 import sys
 from automake_CV_helpers import parse_dates
-
+from pylatexenc.latexencode import unicode_to_latex
 
 class automate_CV:
     def __init__(self, config="config/config.yaml"):
@@ -83,7 +83,7 @@ class automate_CV:
         if not self.needs_description:
             row = row[0:-1]
         # For each non-nan entry, put between brackets {} to form entry command
-        row_info = [f"{{{value}}}" for index, value in row.dropna().items()]
+        row_info = [f"{{{unicode_to_latex(value)}}}" for index, value in row.dropna().items()]
         text = f"{commandname}" + "".join(row_info[1:])
 
         if self.needs_enumeration:

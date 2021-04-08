@@ -45,6 +45,19 @@
   #1, #2, #3 \hfill #4 \\ %
 }
 
+\newcommand{\experienceentry}[5]{%
+  % Args: title, affiliation, institution, date
+  \ifthenelse{ \equal{#5} {} }
+  {\def\temp {  }}
+  {\def \temp {\begin{itemize} % If given 5th argument
+    \item #5
+\end{itemize}}}
+
+ \noindent #1, #2, #3 \hfill #4%
+  \temp
+
+}
+
 \newcommand{\researchentry}[5]{%
   % Args: title, affiliation, institution, date
   \ifthenelse{ \equal{#5} {} }
@@ -68,6 +81,11 @@
 #1, #2 \hfill #3\\%
 }
 
+\newcommand{\pubentry}[3]{%
+  % Args: title, author, date
+#1, #2 \hfill #3\\
+}
+
 \newcommand{\publicpubentry}[3]{%
   % Args: title, author, date
 #1, #2 \hfill #3\\
@@ -77,7 +95,6 @@
   % Args: title, location, date
 #1, #2 \hfill #3
 }
-
 
 %% Eventually make edits so that publicpub and confpresentry are ennumerated backwards
 %% This can be added to config
