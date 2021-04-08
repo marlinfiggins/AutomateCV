@@ -37,7 +37,7 @@
   %% Add optional section using ifthen for GPA in education, job descriptions in service, and research
 \newcommand{\teachingentry}[4]{%
   % Args: title, class, University, date
-#1, #2, #3 \hfill #4\\%
+#1, #2, \hfill #4\\%
 }
 
 \newcommand{\educationentry}[4]{%
@@ -60,7 +60,7 @@
 
 \newcommand{\honorsentry}[3]{%
   % Args: title, issuer, date
-#1, #2, \hfill #3\\%
+#1, #2 \hfill #3\\%
 }
 
 \newcommand{\serviceentry}[4]{%
