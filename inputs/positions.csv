@@ -1,0 +1,14 @@
+entry_type,title,affiliation,location,start_date,end_date,description_short,description_long
+education,B.S. in Technology,University of Wayne,"Gotham, United States",9/2016,12/2019,Short_Edu_Description,Long_Edu_Description
+experience,Worker,Company A,"Springfield, United States",1/2020,,I worked a job.,"Did labor for Company A, including some overtime. I gained experience and increased Company A’s value."
+experience,Intern,LexCorp,"Metropolis, United States",6/2019,9/2019,I learned to work a job.,"I made a laser to blow up the moon, but Superman stopped it several times before the project was abandoned."
+research,Undergraduate Laser Shiner,LasersRUs,University of Wayne,6/2018,9/2018,Developed Laser Shining Technology.,Developed Laser Shining technology making lasers 20% times more shiny.
+teaching,Teaching Assistant,Moon Lasers for Aspiring Villains,University of Wayne,Autumn 2019,,,
+teaching,Teaching Assistant,"Markov Chains, Martingales, and Brownian Motion",University of Chicago,Spring 2019,,,
+honors,League of Villains Scholars Award,National Villainy Foundation,,2020,,,
+honors,Young and E.V.I.L. Scholarship ,Luthor Foundation,,2016,2019,,
+confpres,Lasers and the Moon: Standard villainy in the modern error.,UWayne Research in Lasers Symposium,,2019,,,
+pub,Beyond the Milky Way: Lasers and M51-ULS-1b,John H. Doe,,2020,,,
+service,"President, Founder",LexCorp Fund for Young Men,University of Wayne,8/2018,12/2019,Started a fund for young men who want to follow in the footsteps of Lex Luthor.,Started a fund for young men who want to follow in the footsteps of Lex Luthor.
+service,Volunteer,Gotham Animal Shelter,,1/20,,Feed and care for young kittens without a home.,Feed and care for young kittens without a home.
+skills,C++,,,,,,

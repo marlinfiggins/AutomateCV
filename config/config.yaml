@@ -1,9 +1,9 @@
 # Example .yaml file for automateCV
 # AutomateCV configuration
 contact_info: # Loop over all present values
-  "name": "Marlin Figgins"
-  "email": "marlinfiggins@gmail.com"
-  "website": "marlinfiggins.github.io"
+  "name": "John H. Doe"
+  "email": "jhdoe@email.com"
+  "website": "jhdoe.com"
   "phone": "5"
 
 metadata:
@@ -15,19 +15,21 @@ metadata:
 
 section_titles:
     "education": "Education"
+    "experience": "Work Experience"
     "research": "Research"
     "teaching": "Teaching"
     "honors": "Honors, Awards, and Fellowships"
-    "publicpub": "Blog posts"
     "confpres": "Conference Presentations"
+    "pub": "Peer-Reviewed Articles"
     "service": "Service"
     "skills": "Technical Skills"
 
 section_order:
   - "education"
+  - "experience"
   - "research"
   - "teaching"
-  - "publicpub"
+  - "pub"
   - "honors"
   - "confpres"
   - "service"
