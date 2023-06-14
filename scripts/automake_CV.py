@@ -5,6 +5,7 @@ import sys
 from automake_CV_helpers import parse_dates
 from pylatexenc.latexencode import unicode_to_latex
 
+
 class automate_CV:
     def __init__(self, config="config/config.yaml"):
 
@@ -51,7 +52,7 @@ class automate_CV:
     def create_new_file(self):
         shutil.copyfile(
             f"src/{self.output_class}_template.tex",
-            f"src/{self.file_name}.tex"
+            f"src/{self.file_name}.tex",
         )
 
     # Adding data to .tex file
@@ -83,7 +84,10 @@ class automate_CV:
         if not self.needs_description:
             row = row[0:-1]
         # For each non-nan entry, put between brackets {} to form entry command
-        row_info = [f"{{{unicode_to_latex(value)}}}" for index, value in row.dropna().items()]
+        row_info = [
+            f"{{{unicode_to_latex(value)}}}"
+            for _, value in row.dropna().items()
+        ]
         text = f"{commandname}" + "".join(row_info[1:])
 
         if self.needs_enumeration:
@@ -135,7 +139,9 @@ class automate_CV:
         for section in sections_ordered:  # Using custom sections
             self.add_section(section_titles[section])  # Add section title
             self.begin_section(section)  # Begin section
-            for i, row in self.df.query(f"entry_type == '{section}'").iterrows():
+            for i, row in self.df.query(
+                f"entry_type == '{section}'"
+            ).iterrows():
                 self.add_entry(row)
             self.end_section(section)  # End section
 
